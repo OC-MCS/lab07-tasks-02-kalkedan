@@ -8,7 +8,7 @@ using namespace std;
 // The constructor accepts an argument for the number   *
 // of sides for the die, and performs a roll.           *
 //*******************************************************
-Die::Die(int numSides)
+Die::Die(int numSides )
 {
 	// Get the system time.
 	unsigned seed = time(0);
